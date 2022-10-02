@@ -48,7 +48,7 @@ function validateanswer()
         index=index+1
     }
     console.log(score);
-    outputscore.innerText=score;
+    outputscore.innerText="Your score is (-ve marking for wrong answer) = "+score;
 }
 
 

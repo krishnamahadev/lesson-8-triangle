@@ -31,11 +31,24 @@ function validateanswer()
     for(let entries_form_values of formresults.values())
     {
         console.log(entries_form_values);
-        const answersfromform = entries_form_values
-        console.log(answersfromform)
-        console.log(typeof answersfromform)
-        
+        // const answersfromform = entries_form_values
+        // console.log(answersfromform)
+        // console.log(typeof answersfromform)
+
+
+        if(entries_form_values===corrans[index])
+        {
+            score=score+1;
+            
+        }
+        else
+        {
+            score=score-1;
+        }
+        index=index+1
     }
+    console.log(score);
+    outputscore.innerText=score;
 }
 
 

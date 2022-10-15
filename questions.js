@@ -7,7 +7,7 @@ const submitbutton = document.querySelector("#submit-answer");
 const outputscore = document.querySelector("#score");
 
 
-const corrans = ["90°","right angle"];
+const corrans = ["90°","right angle","one right angle","Equilateral triangle","30°"];
 
 
 

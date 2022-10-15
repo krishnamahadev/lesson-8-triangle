@@ -1,1 +1,22 @@
+body
+{
+    background-color: beige;
+    margin: auto;
+}
 
+.pages
+{
+    padding: 1rem;
+    font-size: larger;
+}
+
+.area-body
+{
+    padding: 2rem;
+    font-size:larger
+}
+
+.header-main
+{
+    padding: 2rem;
+}
